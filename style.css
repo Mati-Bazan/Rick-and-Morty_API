@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    margin: 30px;
+    background-color: #222831;
+    color: white;
+}
+
+#resultado, #resultado_epi, #locate_resultado{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+h1 {
+    color: #EEEEEE;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.navbar {
+    border-radius: 7px;
+}
+
+#RyM_logo{
+    width: 50px;
+    height: auto;
+}
+
+.navbar img {
+    margin-left: auto;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor select{
+    background-color: #76ABAE;
+    color: #EEEEEE;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.boton-anterior {
+    background-color: #76ABAE;
+    color: #EEEEEE;
+    border: none;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.boton-siguiente {
+    background-color: #76ABAE;
+    color: #EEEEEE;
+    border: none;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.contenedor label {
+    font-size: 20px;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: #76ABAE !important; 
+}
+.navbar h1,
+.navbar a {
+    color: #EEEEEE;
+}
+.card {
+    background-color: #31363F;
+    border-color: #EEEEEE;
+    border-width: 3px;
+}
+.card-body {
+    color: #EEEEEE;
+}
